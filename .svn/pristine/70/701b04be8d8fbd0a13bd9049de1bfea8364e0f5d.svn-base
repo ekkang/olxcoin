@@ -76,7 +76,7 @@ Installing the dependencies using MacPorts is very straightforward.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:olxcoin-project/olxcoin.git olxcoin
+        git clone git@github.com:ekkang/olxcoin.git olxcoin
         cd olxcoin
 
 2.  Build olxcoind:
@@ -111,7 +111,7 @@ Rerunning "openssl version" should now return the correct version.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/olxcoin-project/olxcoin.git
+        git clone https://github.com/ekkang/olxcoin.git
         cd olxcoin
 
 2.  Modify source in order to pick up the `openssl` library.

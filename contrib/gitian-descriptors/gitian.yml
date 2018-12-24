@@ -20,7 +20,7 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/olxcoin-project/olxcoin.git"
+- "url": "https://github.com/ekkang/olxcoin.git"
   "dir": "olxcoin"
 files:
 - "miniupnpc-1.9.20140401.tar.gz"
