@@ -1,0 +1,34 @@
+src/*.exe
+src/olxcoin
+src/olxcoind
+src/test_olxcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.olxcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+olxcoin-qt
+Olxcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+olxcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

@@ -1,0 +1,9 @@
+Building Olxcoin
+
+See doc/readme-qt.rst for instructions on building Olxcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Olxcoin.
+
+See doc/build-*.txt for instructions on building olxcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Olxcoin.
