@@ -2,6 +2,7 @@ src/*.exe
 src/olxcoin
 src/olxcoind
 src/test_olxcoin
+*.svn
 .*.swp
 *.*~*
 *.bak
