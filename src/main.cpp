@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x08445d644f81417e92349c01097744c7b30289a69cb23befba6da4f0206daf28");
+uint256 hashGenesisBlock("0x91503bccca937c29d104852d0a6c8086b4f1445b0713d9582cf222ccb2ba934d");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Olxcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2791,7 +2791,7 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1545271572;
+        block.nTime    = 1545893949;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2085621803;
 
@@ -2849,7 +2849,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x7cdbd4fae41b6a670b4218d7c0748048b08ffaec4a695d6af126912583285c45"));
+        assert(block.hashMerkleRoot == uint256("0xb464be30f1c73abd5723fa487bb7496cf39dbbdabce24619a9ac1a6df6d6e496"));
         block.print();
         assert(hash == hashGenesisBlock);
 
